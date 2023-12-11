@@ -8,7 +8,9 @@ const MainLayout = () => {
     return (
         <section >
             <Navbar></Navbar>
-            <Outlet></Outlet>
+            <section className="h-screen">
+                <Outlet></Outlet>
+            </section>
         </section>
     );
 };
