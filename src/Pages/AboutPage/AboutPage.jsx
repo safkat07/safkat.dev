@@ -1,9 +1,13 @@
 
 const AboutPage = () => {
     return (
-        <div className=''>
-            About page
-        </div>
+        <section id="about" className='bg-[#000] h-screen'>
+            <div>
+                <div>
+
+                </div>
+            </div>
+        </section>
     );
 };
 

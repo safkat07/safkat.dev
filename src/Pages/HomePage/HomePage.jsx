@@ -7,9 +7,11 @@ import ProjectsPage from "../ProjectsPage/ProjectsPage";
 const HomePage = () => {
     return (
         <div >
-           <div className="h-screen"> 
+           
             <Banner></Banner>
-            </div>
+            <AboutPage></AboutPage>
+            <ProjectsPage></ProjectsPage>
+            
         </div>
     );
 };

@@ -2,8 +2,8 @@
 
 const ProjectsPage = () => {
     return (
-        <div className=''>
-            prouct page
+        <div id="projects" className='h-screen bg-black'>
+            prject page
         </div>
     );
 };
