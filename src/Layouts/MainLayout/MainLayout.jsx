@@ -6,7 +6,7 @@ import Navbar from "../HeaderLayout/Navbar/Navbar";
 
 const MainLayout = () => {
     return (
-        <section >
+        <section className="h-screen" >
             <Navbar></Navbar>
           
                 <Outlet></Outlet>
