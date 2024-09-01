@@ -16,18 +16,18 @@ const techIcons = [
 
 const ServicesOfferingSections = () => {
   return (
-      <CardWrapper className='p-20 flex flex-col justify-between items-start'>
-            <div className="flex gap-4 justify-center items-center">
+      <CardWrapper className='min-h-52 p-7  flex flex-col justify-between items-start h-full'>
+            <div className="flex gap-4 justify-center items-center mx-auto ">
       {techIcons.map((tech) => (
         <div key={tech.id} className="flex flex-col items-center">
-          <tech.icon className="text-3xl text-white" />
+          <tech.icon className="text-5xl text-white" />
         </div>
       ))}
           </div>
 
-          <div>
+          <div className="mt-5">
           <p className='uppercase text-gray-500 text-sm'>specialization</p>
-          <h1 className='text-white text-xl font-semibold.'>Experts In</h1>
+          <h1 className='text-white text-xl font-semibold.'>Experts in</h1>
         </div>
         </CardWrapper>
   )
