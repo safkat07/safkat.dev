@@ -1,8 +1,9 @@
 import React from 'react'
-import ProfileSection from './Sections/ProfileSection'
-import LatestWorkScroll from './Sections/LatestWorkScroll'
-import AboutMeSection from './Sections/AboutMeSection'
-import MyWorksSection from './Sections/MyWorksSection'
+import ProfileSection from '../Sections/ProfileSection'
+import LatestWorkScroll from '../Sections/LatestWorkScroll'
+import AboutMeSection from '../Sections/AboutMeSection'
+import MyWorksSection from '../Sections/MyWorksSection'
+
 
 const FirstPartOfHomePage = () => {
   return (

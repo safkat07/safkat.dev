@@ -1,14 +1,18 @@
-import FirstPartOfHomePage from "@/components/FirstPartOfHomePage";
+
+import FirstPartOfHomePage from "@/components/HomePage/FirstPartOfHomePage";
+import SecondPartOfHomePage from "@/components/HomePage/SecondPartOfHomePage";
+import ThirdPartOfHomePage from "@/components/HomePage/ThirdPartOfHomePage";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
-import SecondPartOfHomePage from "@/components/SecondPartOfHomePage";
+
 
 
 
 export default function Home() {
   return (
-      <MaxWidthWrapper className="mt-28 space-y-5">
-          <FirstPartOfHomePage />
+      <MaxWidthWrapper className="my-28 space-y-5">
+          <FirstPartOfHomePage/>
           <SecondPartOfHomePage/>
+          <ThirdPartOfHomePage/>    
       </MaxWidthWrapper>
   );
 }

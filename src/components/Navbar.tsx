@@ -8,7 +8,7 @@ const Navbar = () => {
           <nav className="flex justify-between items-center">
               <div className="cursor-pointer">
                   <p className="md:text-3xl text-2xl  font-medium">
-                  Safkat.dev
+                  safkat.dev
                  </p>
               </div>
               <ul className="lg:flex justify-center items-center lg:text-xl gap-x-10  hidden   ">

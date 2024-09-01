@@ -1,7 +1,8 @@
 import React from 'react'
-import BlogsSection from './Sections/BlogsSection'
-import ServicesOfferingSections from './Sections/ServicesOfferingSections'
-import SocialSections from './Sections/SocialSections'
+import BlogsSection from '../Sections/BlogsSection'
+import ServicesOfferingSections from '../Sections/ServicesOfferingSections'
+import SocialSections from '../Sections/SocialSections'
+
 
 const SecondPartOfHomePage = () => {
   return (
