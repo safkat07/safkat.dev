@@ -9,10 +9,10 @@ import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 
 export default function Home() {
   return (
-      <MaxWidthWrapper className="my-28 space-y-5">
+      <MaxWidthWrapper className="mt-7 space-y-5">
           <FirstPartOfHomePage/>
           <SecondPartOfHomePage/>
-          <ThirdPartOfHomePage/>    
+          <ThirdPartOfHomePage/>
       </MaxWidthWrapper>
   );
 }
