@@ -1,4 +1,4 @@
-![Portfolio Screenshot](https://ibb.co/rsYzzFC)
+![Portfolio Screenshot](https://i.ibb.co/rsYzzFC/screencapture-localhost-3000-2024-09-01-20-22-12.png)
 
 # 💻 Safkat Sharif Sadli | Frontend Developer
 
