@@ -3,7 +3,7 @@ import CardWrapper from '../Reuseable/CardWrapper'
 
 const LetsWorkTogetherSection = () => {
   return (
-      <CardWrapper className='min-h-52 m-auto p-7 text-5xl font-semibold  flex justify-between flex-col'>
+      <CardWrapper className='min-h-52 m-auto p-7 md:text-5xl text-4xl font-semibold  flex justify-between flex-col'>
           <div></div>
           <div>
           <p>Lets</p>
