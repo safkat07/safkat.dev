@@ -6,7 +6,7 @@ const CardWrapper = ({children, className }: {
     children: ReactNode
 }) => {
   return (
-      <div className={cn("w-full border border-white/10 rounded-[2rem] bg-gradient-to-br from-[#202020] via-slate-400/5 to-[#161616] cursor-pointer", className)}>
+      <div className={cn("w-full border border-white/10 rounded-[2rem] bg-gradient-to-br from-[#202020] via-slate-400/10 to-[#161616] cursor-pointer", className)}>
           {children}
 
     </div>

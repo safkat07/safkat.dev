@@ -1,3 +1,4 @@
+import Link from "next/link";
 import MaxWidthWrapper from "./MaxWidthWrapper"
 import { CgMenuRight } from "react-icons/cg";
 
@@ -12,7 +13,8 @@ const Navbar = () => {
                  </p>
               </div>
               <ul className="lg:flex justify-center items-center lg:text-xl gap-x-10  hidden   ">
-                  <li>Home</li>
+                  <Link href='/' > <li>Home</li></Link>
+
                   <li>About</li>
                   <li>Works</li>
                   <li>Contact</li>
