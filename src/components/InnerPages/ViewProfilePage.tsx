@@ -2,9 +2,12 @@ import Image from 'next/image'
 import React from 'react'
 import selfImg from '../../../public/self.jpeg'
 import CardWrapper from '../Reuseable/CardWrapper'
+import ExperienceCard from './ExperienceCard'
+import EducationCard from './EducationCard'
 const ViewProfilePage = () => {
   return (
-      <div className='w-full mx-auto lg:grid  xl:grid-cols-3 grid-cols-1 justify-center gap-5 mt-20 mb-5'>
+      <div>
+          <div className='w-full mx-auto lg:grid  xl:grid-cols-3 grid-cols-1 justify-center gap-5 mt-20 mb-5'>
           <CardWrapper className='xl:p-5 p-5 lg:py-10'>
           <Image className='mx-auto rounded-3xl  ' src={selfImg} alt='image'/>
           </CardWrapper>
@@ -21,7 +24,12 @@ const ViewProfilePage = () => {
                   </div>
               </CardWrapper>
           </div>
-    </div>
+          </div>
+          <div className='grid md:grid-cols-2 grid-cols-1 w-full gap-5 justify-center items-center'>
+              <ExperienceCard />
+              <EducationCard/>
+          </div>
+      </div>
   )
 }
 
