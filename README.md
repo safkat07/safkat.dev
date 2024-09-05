@@ -1,4 +1,5 @@
-![Portfolio Screenshot](https://i.ibb.co/YZm11Pz/screencapture-localhost-3000-2024-09-01-20-22-12.png")
+
+![Uploading screencapture-localhost-3000-2024-09-01-20_22_12.png…]()
 
 # 💻 Safkat Sharif Sadli | Frontend Developer
 
